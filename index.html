@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aidan | Project Portfolio</title>
+    <meta
+      name="description"
+      content="A modern, image-led portfolio for Aidan's software and creative projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Go to top">Aidan</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Project Portfolio</p>
+          <h1>Modern builds, clear stories, and proof you can click.</h1>
+          <p class="hero-text">
+            A single-scroll portfolio for the projects I have made so far,
+            with space for screenshots, links, the tools I used, and the role I
+            played in each build.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button secondary" href="mailto:aidan@example.com"
+              >Get in touch</a
+            >
+          </div>
+        </div>
+        <div class="hero-image" aria-label="Portfolio preview">
+          <img src="assets/projects/portfolio-dashboard.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Portfolio highlights">
+        <div>
+          <span>01</span>
+          Image-led project sections
+        </div>
+        <div>
+          <span>02</span>
+          Tools, role, and outcomes
+        </div>
+        <div>
+          <span>03</span>
+          Live links and source links
+        </div>
+      </section>
+
+      <section class="section-heading" id="projects">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects I have built</h2>
+        <p>
+          Replace these starter projects with your real work. Each section has
+          a strong image, a short explanation, tags, and project links.
+        </p>
+      </section>
+
+      <section class="projects" aria-label="Project list">
+        <article class="project-block">
+          <a class="project-media" href="#" aria-label="Open Project One">
+            <img
+              src="assets/projects/web-app.svg"
+              alt="Mockup of a responsive web application dashboard"
+            />
+          </a>
+          <div class="project-content">
+            <p class="project-number">01</p>
+            <h3>Project One</h3>
+            <p>
+              A short explanation of what the project does, who it was for, and
+              the main problem it solved. Keep this human and direct.
+            </p>
+            <p>
+              I designed the layout, built the front-end interface, connected
+              the data flow, and polished the responsive experience.
+            </p>
+            <div class="tag-list" aria-label="Technologies used">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Live site</a>
+              <a href="#">Source code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-block reverse">
+          <a class="project-media" href="#" aria-label="Open Project Two">
+            <img
+              src="assets/projects/mobile-app.svg"
+              alt="Mockup of a mobile app project with multiple screens"
+            />
+          </a>
+          <div class="project-content">
+            <p class="project-number">02</p>
+            <h3>Project Two</h3>
+            <p>
+              Describe the user journey, the key features, and what makes this
+              project worth opening. Mention measurable results if you have
+              them.
+            </p>
+            <p>
+              I focused on component structure, clean styling, interactive
+              states, and making the interface feel quick and understandable.
+            </p>
+            <div class="tag-list" aria-label="Technologies used">
+              <span>React</span>
+              <span>API</span>
+              <span>Responsive UI</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Live demo</a>
+              <a href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-block">
+          <a class="project-media" href="#" aria-label="Open Project Three">
+            <img
+              src="assets/projects/data-tool.svg"
+              alt="Mockup of a data visualisation and reporting tool"
+            />
+          </a>
+          <div class="project-content">
+            <p class="project-number">03</p>
+            <h3>Project Three</h3>
+            <p>
+              Explain the challenge, the technical decisions, and the finished
+              result. This is a good place to show problem solving.
+            </p>
+            <p>
+              I worked on the logic, the visual presentation, accessibility
+              details, and the final documentation.
+            </p>
+            <div class="tag-list" aria-label="Technologies used">
+              <span>Python</span>
+              <span>Charts</span>
+              <span>Automation</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Case study</a>
+              <a href="#">Repository</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="about" id="about">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2>I like building things that are useful, readable, and nice to use.</h2>
+        </div>
+        <p>
+          Add a short paragraph about what you are learning, what kind of
+          projects you enjoy, and what you want to do next. This section should
+          sound like you, not like a formal CV.
+        </p>
+      </section>
+
+      <section class="contact" id="contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Want to see the code or talk about a project?</h2>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:aidan@example.com"
+            >Email me</a
+          >
+          <a class="button secondary" href="https://github.com/Aidan0o0o/" target="_blank"
+            >GitHub</a
+          >
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/aidan-malka/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
