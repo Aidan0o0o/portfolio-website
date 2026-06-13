@@ -7,6 +7,9 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - Site title: `Aidan | Project Portfolio`
 - Meta description: `A modern, image-led portfolio for Aidan's software and creative projects.`
 - Header name: `Aidan`
+- Header CV link: `CV`
+- CV file path: `assets/projects/Aidan Malka - CV (1).pdf`
+- CV download filename: `Aidan Malka's CV.pdf`
 - Email address: `aidanmalka@gmail.com`
 - GitHub link: `https://github.com/Aidan0o0o/`
 - LinkedIn link: `https://www.linkedin.com/in/aidan-malka/`
@@ -22,9 +25,9 @@ Use this as the editing checklist when you are ready to swap placeholder content
 
 ## Intro Strip
 
-- `Image-led project sections`
-- `Tools, role, and outcomes`
-- `Live links and source links`
+- `FreshTrack`
+- `PillPall`
+- `RUH Goal Portal`
 
 ## Projects Heading
 
@@ -32,9 +35,10 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - Heading: `Projects I have built`
 - Text: `Replace these starter projects with your real work. Each section has a strong image, a short explanation, tags, and project links.`
 
-## Project One
+## FreshTrack
 
-- Project name: `Project One`
+- Logo: `assets/projects/logos/freshtrack-logo-placeholder.svg`
+- Logo alt text: `FreshTrack logo placeholder`
 - Image: `assets/projects/web-app.svg`
 - Image alt text: `Mockup of a responsive web application dashboard`
 - Description 1: `A short explanation of what the project does, who it was for, and the main problem it solved. Keep this human and direct.`
@@ -43,9 +47,10 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - Links: `Live site`, `Source code`
 - Link URLs: `#`, `#`
 
-## Project Two
+## PillPall
 
-- Project name: `Project Two`
+- Logo: `assets/projects/logos/pillpall-logo-placeholder.svg`
+- Logo alt text: `PillPall logo placeholder`
 - Image: `assets/projects/mobile-app.svg`
 - Image alt text: `Mockup of a mobile app project with multiple screens`
 - Description 1: `Describe the user journey, the key features, and what makes this project worth opening. Mention measurable results if you have them.`
@@ -54,9 +59,10 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - Links: `Live demo`, `GitHub`
 - Link URLs: `#`, `#`
 
-## Project Three
+## RUH Goal Portal
 
-- Project name: `Project Three`
+- Logo: `assets/projects/logos/ruh-goal-portal-logo-placeholder.svg`
+- Logo alt text: `RUH Goal Portal logo placeholder`
 - Image: `assets/projects/data-tool.svg`
 - Image alt text: `Mockup of a data visualisation and reporting tool`
 - Description 1: `Explain the challenge, the technical decisions, and the finished result. This is a good place to show problem solving.`
@@ -68,7 +74,6 @@ Use this as the editing checklist when you are ready to swap placeholder content
 ## About
 
 - Eyebrow: `About Me`
-- Heading: `I like building things that are useful, readable, and nice to use.`
 - Text: `Add a short paragraph about what you are learning, what kind of projects you enjoy, and what you want to do next. This section should sound like you, not like a formal CV.`
 
 ## Contact

@@ -18,11 +18,29 @@
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Go to top">Aidan</a>
+      <a class="brand" href="#top" aria-label="Go to top">Aidan's Portfolio</a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
+        <a
+          class="nav-cv-link"
+          href="assets/projects/Aidan%20Malka%20-%20CV%20(1).pdf"
+          download="Aidan Malka's CV.pdf"
+          data-cv-link
+        >
+          <span>CV</span>
+          <svg
+            class="download-icon"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M12 3v11" />
+            <path d="m7.5 9.5 4.5 4.5 4.5-4.5" />
+            <path d="M5 19h14" />
+          </svg>
+        </a>
       </nav>
     </header>
 
@@ -42,6 +60,7 @@
               class="button secondary"
               href="mailto:aidanmalka@gmail.com?subject=Portfolio%20Project%20Chat&body=Hi%20Aidan%2C%0A%0AI%20saw%20your%20portfolio%20and%20wanted%20to%20get%20in%20touch%20about..."
               target="_blank"
+              rel="noopener"
               >Get in touch</a
             >
           </div>
@@ -54,15 +73,15 @@
       <section class="intro-strip" aria-label="Portfolio highlights">
         <div>
           <span>01</span>
-          Image-led project sections
+          FreshTrack
         </div>
         <div>
           <span>02</span>
-          Tools, role, and outcomes
+          PillPall
         </div>
         <div>
           <span>03</span>
-          Live links and source links
+          RUH Goal Portal
         </div>
       </section>
 
@@ -76,7 +95,7 @@
       </section>
 
       <section class="projects" aria-label="Project list">
-        <article class="project-block">
+        <article class="project-block reveal-on-scroll">
           <a class="project-media" href="#" aria-label="Open Project One">
             <img
               src="assets/projects/web-app.svg"
@@ -85,7 +104,13 @@
           </a>
           <div class="project-content">
             <p class="project-number">01</p>
-            <h3>Project One</h3>
+            <div class="project-title">
+              <img
+                src="assets/projects/logos/freshtrack-logo-placeholder.svg"
+                alt="FreshTrack logo placeholder"
+              />
+              <h3>FreshTrack</h3>
+            </div>
             <p>
               A short explanation of what the project does, who it was for, and
               the main problem it solved. Keep this human and direct.
@@ -95,18 +120,26 @@
               the data flow, and polished the responsive experience.
             </p>
             <div class="tag-list" aria-label="Technologies used">
-              <span>HTML</span>
-              <span>CSS</span>
+              <span>React Native</span>
+              <span>OpenAI API</span>
               <span>JavaScript</span>
             </div>
             <div class="project-links">
-              <a href="#">Live site</a>
-              <a href="#">Source code</a>
+              <a href="https://freshtrack-promotional-website.vercel.app/#main"
+                 target="_blank"
+                 rel="noopener"
+                 >Promo Website</a>
+              <a
+                href="https://github.com/petericranston/Smart-Food-Tracker"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
             </div>
           </div>
         </article>
 
-        <article class="project-block reverse">
+        <article class="project-block reverse reveal-on-scroll">
           <a class="project-media" href="#" aria-label="Open Project Two">
             <img
               src="assets/projects/mobile-app.svg"
@@ -115,7 +148,13 @@
           </a>
           <div class="project-content">
             <p class="project-number">02</p>
-            <h3>Project Two</h3>
+            <div class="project-title">
+              <img
+                src="assets/projects/logos/pillpall-logo-placeholder.svg"
+                alt="PillPall logo placeholder"
+              />
+              <h3>PillPall</h3>
+            </div>
             <p>
               Describe the user journey, the key features, and what makes this
               project worth opening. Mention measurable results if you have
@@ -126,18 +165,21 @@
               states, and making the interface feel quick and understandable.
             </p>
             <div class="tag-list" aria-label="Technologies used">
-              <span>React</span>
-              <span>API</span>
-              <span>Responsive UI</span>
+              <span>React Native</span>
+              <span>OpenAI API</span>
+              <span>Arduino</span>
             </div>
             <div class="project-links">
               <a href="#">Live demo</a>
-              <a href="#">GitHub</a>
+              <a href="https://github.com/Aidan0o/Devised-Project-Medication-Tracker"
+                 target="_blank"
+                 rel="noopener">
+                 GitHub</a>
             </div>
           </div>
         </article>
 
-        <article class="project-block">
+        <article class="project-block reveal-on-scroll">
           <a class="project-media" href="#" aria-label="Open Project Three">
             <img
               src="assets/projects/data-tool.svg"
@@ -146,7 +188,13 @@
           </a>
           <div class="project-content">
             <p class="project-number">03</p>
-            <h3>Project Three</h3>
+            <div class="project-title">
+              <img
+                src="assets/projects/logos/ruh-goal-portal-logo-placeholder.svg"
+                alt="RUH Goal Portal logo placeholder"
+              />
+              <h3>RUH Goal Portal</h3>
+            </div>
             <p>
               Explain the challenge, the technical decisions, and the finished
               result. This is a good place to show problem solving.
@@ -162,22 +210,39 @@
             </div>
             <div class="project-links">
               <a href="#">Case study</a>
-              <a href="#">Repository</a>
+              <a href="#" target="_blank" rel="noopener">Repository</a>
             </div>
           </div>
         </article>
       </section>
 
       <section class="about" id="about">
-        <div>
+        <div class="about-intro">
           <p class="eyebrow">About Me</p>
-          <h2>I like building things that are useful, readable, and nice to use.</h2>
+          <h2 class="about-heading">
+            <span>Hard working,</span>
+            <span>Driven,</span>
+            <span>Ready to take on any task</span>
+          </h2>
         </div>
-        <p>
-          Add a short paragraph about what you are learning, what kind of
-          projects you enjoy, and what you want to do next. This section should
-          sound like you, not like a formal CV.
-        </p>
+        <div class="about-profile">
+          <img
+            src="assets/projects/portrait-image.jpeg"
+            alt="Portrait of Aidan"
+          />
+          <p>
+            I am a dedicated Computing graduate from Bath Spa University with
+            experience in retail, hospitality, property renovation and software
+            development. I am highly motivated, adaptable and always eager to
+            learn new skills and apply them within my work. I am very active
+            and enjoy rock climbing, the gym and cycling in my spare time. I'm
+            friendly and approachable and I always strive to do the best I can
+            in all situations. I was a member of the Army Cadets at the 151 and
+            156 detachments where I had many responsibilities such as planning
+            and teaching lessons regarding a variety of subjects, from firearm
+            safety & handling, to playing musical instruments.
+          </p>
+        </div>
       </section>
 
       <section class="contact" id="contact">
@@ -188,6 +253,7 @@
             class="button primary"
             href="mailto:aidanmalka@gmail.com?subject=Portfolio%20Project%20Chat&body=Hi%20Aidan%2C%0A%0AI%20saw%20your%20portfolio%20and%20wanted%20to%20get%20in%20touch%20about..."
             target="_blank"
+            rel="noopener"
             >Email me</a
           >
           <button
@@ -198,13 +264,18 @@
           >
             Copy email
           </button>
-          <a class="button secondary" href="https://github.com/Aidan0o0o/" target="_blank"
+          <a
+            class="button secondary"
+            href="https://github.com/Aidan0o0o/"
+            target="_blank"
+            rel="noopener"
             >GitHub</a
           >
           <a
             class="button secondary"
             href="https://www.linkedin.com/in/aidan-malka/"
             target="_blank"
+            rel="noopener"
             >LinkedIn</a
           >
         </div>
@@ -213,6 +284,97 @@
         </p>
       </section>
     </main>
+
+    <aside class="accessibility-widget" aria-label="Accessibility settings">
+      <button
+        class="accessibility-toggle"
+        type="button"
+        data-accessibility-toggle
+        aria-label="Open accessibility settings"
+        aria-expanded="false"
+        aria-controls="accessibility-panel"
+      >
+        <svg
+          class="accessibility-icon"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <circle cx="12" cy="4" r="2.1" />
+          <path d="M4.5 8.2h15" />
+          <path d="M12 6.6v6.1" />
+          <path d="M8.1 20.2l2.1-6.2" />
+          <path d="M15.9 20.2 13.8 14" />
+          <path d="M8.7 11.7h6.6" />
+        </svg>
+      </button>
+      <div
+        class="accessibility-panel"
+        id="accessibility-panel"
+        data-accessibility-panel
+        hidden
+      >
+        <div class="accessibility-panel-header">
+          <h2>Accessibility</h2>
+          <button
+            class="accessibility-close"
+            type="button"
+            data-accessibility-close
+            aria-label="Close accessibility settings"
+          >
+            Close
+          </button>
+        </div>
+
+        <fieldset class="accessibility-group">
+          <legend>Font size</legend>
+          <label>
+            <input type="radio" name="font-size" value="default" checked />
+            Default
+          </label>
+          <label>
+            <input type="radio" name="font-size" value="large" />
+            Large
+          </label>
+          <label>
+            <input type="radio" name="font-size" value="larger" />
+            Extra large
+          </label>
+        </fieldset>
+
+        <fieldset class="accessibility-group">
+          <legend>Colour mode</legend>
+          <label>
+            <input type="radio" name="colour-mode" value="default" checked />
+            Default
+          </label>
+          <label>
+            <input type="radio" name="colour-mode" value="deuteranopia" />
+            Green-safe
+          </label>
+          <label>
+            <input type="radio" name="colour-mode" value="protanopia" />
+            Red-safe
+          </label>
+          <label>
+            <input type="radio" name="colour-mode" value="tritanopia" />
+            Blue-safe
+          </label>
+          <label>
+            <input type="radio" name="colour-mode" value="high-contrast" />
+            High contrast
+          </label>
+          <label>
+            <input type="radio" name="colour-mode" value="dark" />
+            Dark mode
+          </label>
+        </fieldset>
+
+        <button class="accessibility-reset" type="button" data-accessibility-reset>
+          Reset settings
+        </button>
+      </div>
+    </aside>
 
     <script src="script.js"></script>
   </body>
