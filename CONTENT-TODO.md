@@ -14,14 +14,10 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - GitHub link: `https://github.com/Aidan0o0o/`
 - LinkedIn link: `https://www.linkedin.com/in/aidan-malka/`
 
-## Hero
+## Hero / About
 
-- Eyebrow: `Project Portfolio`
-- Main heading: `Modern builds, clear stories, and proof you can click.`
-- Intro text: `A single-scroll portfolio for the projects I have made so far, with space for screenshots, links, the tools I used, and the role I played in each build.`
 - Primary button: `View projects`
 - Secondary button: `Get in touch`
-- Hero image: `assets/projects/portfolio-dashboard.svg`
 
 ## Intro Strip
 
@@ -37,8 +33,6 @@ Use this as the editing checklist when you are ready to swap placeholder content
 
 ## FreshTrack
 
-- Logo: `assets/projects/logos/freshtrack-logo-placeholder.svg`
-- Logo alt text: `FreshTrack logo placeholder`
 - Image: `assets/projects/web-app.svg`
 - Image alt text: `Mockup of a responsive web application dashboard`
 - Description 1: `A short explanation of what the project does, who it was for, and the main problem it solved. Keep this human and direct.`
@@ -49,8 +43,6 @@ Use this as the editing checklist when you are ready to swap placeholder content
 
 ## PillPall
 
-- Logo: `assets/projects/logos/pillpall-logo-placeholder.svg`
-- Logo alt text: `PillPall logo placeholder`
 - Image: `assets/projects/mobile-app.svg`
 - Image alt text: `Mockup of a mobile app project with multiple screens`
 - Description 1: `Describe the user journey, the key features, and what makes this project worth opening. Mention measurable results if you have them.`
@@ -61,8 +53,6 @@ Use this as the editing checklist when you are ready to swap placeholder content
 
 ## RUH Goal Portal
 
-- Logo: `assets/projects/logos/ruh-goal-portal-logo-placeholder.svg`
-- Logo alt text: `RUH Goal Portal logo placeholder`
 - Image: `assets/projects/data-tool.svg`
 - Image alt text: `Mockup of a data visualisation and reporting tool`
 - Description 1: `Explain the challenge, the technical decisions, and the finished result. This is a good place to show problem solving.`
@@ -70,11 +60,6 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - Tags: `Python`, `Charts`, `Automation`
 - Links: `Case study`, `Repository`
 - Link URLs: `#`, `#`
-
-## About
-
-- Eyebrow: `About Me`
-- Text: `Add a short paragraph about what you are learning, what kind of projects you enjoy, and what you want to do next. This section should sound like you, not like a formal CV.`
 
 ## Contact
 

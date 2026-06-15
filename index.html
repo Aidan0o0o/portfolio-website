@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Go to top">Aidan's Portfolio</a>
+      <a class="brand" href="#top" aria-label="Go to top">Aidan Malka</a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
@@ -45,14 +45,25 @@
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero" id="about">
         <div class="hero-copy">
-          <p class="eyebrow">Project Portfolio</p>
-          <h1>Modern builds, clear stories, and proof you can click.</h1>
+          <p class="eyebrow">About Me</p>
+          <h1 class="about-heading">
+            <span>Hard working,</span>
+            <span>Driven,</span>
+            <span>Ready to take on any task</span>
+          </h1>
           <p class="hero-text">
-            A single-scroll portfolio for the projects I have made so far,
-            with space for screenshots, links, the tools I used, and the role I
-            played in each build.
+            Hey my name is Aidan. I am a dedicated Computing graduate from Bath Spa University with
+            experience in retail, hospitality, property renovation and software
+            development. I am highly motivated, adaptable and always eager to
+            learn new skills and apply them within my work. I am very active
+            and enjoy rock climbing, the gym and cycling in my spare time. I'm
+            friendly and approachable and I always strive to do the best I can
+            in all situations. I was a member of the Army Cadets at the 151 and
+            156 detachments where I had many responsibilities such as planning
+            and teaching lessons regarding a variety of subjects, from firearm
+            safety & handling, to playing musical instruments.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#projects">View projects</a>
@@ -65,8 +76,8 @@
             >
           </div>
         </div>
-        <div class="hero-image" aria-label="Portfolio preview">
-          <img src="assets/projects/portfolio-dashboard.svg" alt="" />
+        <div class="hero-image hero-portrait">
+          <img src="assets/projects/portrait-image.jpeg" alt="Portrait of Aidan" />
         </div>
       </section>
 
@@ -89,8 +100,7 @@
         <p class="eyebrow">Selected Work</p>
         <h2>Projects I have built</h2>
         <p>
-          Replace these starter projects with your real work. Each section has
-          a strong image, a short explanation, tags, and project links.
+          These are projects I completed in my third year of university as part of my computing course. Each project has a link to the github/MVP allowing you to get a good understanding as to what they are and what problems they solve.
         </p>
       </section>
 
@@ -106,19 +116,18 @@
             <p class="project-number">01</p>
             <div class="project-title">
               <img
-                src="assets/projects/logos/freshtrack-logo-placeholder.svg"
-                alt="FreshTrack logo placeholder"
+                class="project-logo project-logo-wide"
+                src="assets/projects/logos/freshtrack-logo.png"
+                alt="FreshTrack logo"
               />
               <h3>FreshTrack</h3>
             </div>
             <p>
-              A short explanation of what the project does, who it was for, and
-              the main problem it solved. Keep this human and direct.
+              FreshTrack is an app that allows you to track your foods expiry dates and generate recipes based on what goes out of date first.
+              Unlike its competitors, it allows users to add items by taking one picture of their receipt, instead of adding each item manually.
+              This was a group project in which I was in responsible for the receipt scanning & recipe generation workflow & the OpenAI API integration.
             </p>
-            <p>
-              I designed the layout, built the front-end interface, connected
-              the data flow, and polished the responsive experience.
-            </p>
+
             <div class="tag-list" aria-label="Technologies used">
               <span>React Native</span>
               <span>OpenAI API</span>
@@ -150,24 +159,21 @@
             <p class="project-number">02</p>
             <div class="project-title">
               <img
-                src="assets/projects/logos/pillpall-logo-placeholder.svg"
-                alt="PillPall logo placeholder"
+                class="project-logo project-logo-badge"
+                src="assets/projects/logos/pillpall-logo-cropped.png"
+                alt="PillPall logo"
               />
               <h3>PillPall</h3>
             </div>
             <p>
-              Describe the user journey, the key features, and what makes this
-              project worth opening. Mention measurable results if you have
-              them.
+              This was my own project, being A mobile medication reminder app that pairs via Bluetooth with an Arduino controlled medication box, which aids and verifies medication intake. Built with React Native, Arduino and Sqlite3
             </p>
-            <p>
-              I focused on component structure, clean styling, interactive
-              states, and making the interface feel quick and understandable.
-            </p>
+
             <div class="tag-list" aria-label="Technologies used">
               <span>React Native</span>
               <span>OpenAI API</span>
               <span>Arduino</span>
+              <span>TypeScript</span>
             </div>
             <div class="project-links">
               <a href="#">Live demo</a>
@@ -190,23 +196,22 @@
             <p class="project-number">03</p>
             <div class="project-title">
               <img
-                src="assets/projects/logos/ruh-goal-portal-logo-placeholder.svg"
-                alt="RUH Goal Portal logo placeholder"
+                class="project-logo project-logo-extra-wide"
+                src="assets/projects/logos/RUH-proj-logo.png"
+                alt="RUH Goal Portal logo"
               />
               <h3>RUH Goal Portal</h3>
             </div>
             <p>
-              Explain the challenge, the technical decisions, and the finished
-              result. This is a good place to show problem solving.
+              This was an application made for the Royal United Hospital in Bath in order to digitalise and simplify their current KPI management system using Microsoft's Power Platforms.
             </p>
             <p>
-              I worked on the logic, the visual presentation, accessibility
-              details, and the final documentation.
+              This was a group project in which we communicated directly with the RUH in order to tailor the app specifically to their needs and wants.
             </p>
             <div class="tag-list" aria-label="Technologies used">
-              <span>Python</span>
-              <span>Charts</span>
-              <span>Automation</span>
+              <span>Power Apps</span>
+              <span>Power Automate</span>
+              <span>Sharepoint</span>
             </div>
             <div class="project-links">
               <a href="#">Case study</a>
@@ -214,35 +219,6 @@
             </div>
           </div>
         </article>
-      </section>
-
-      <section class="about" id="about">
-        <div class="about-intro">
-          <p class="eyebrow">About Me</p>
-          <h2 class="about-heading">
-            <span>Hard working,</span>
-            <span>Driven,</span>
-            <span>Ready to take on any task</span>
-          </h2>
-        </div>
-        <div class="about-profile">
-          <img
-            src="assets/projects/portrait-image.jpeg"
-            alt="Portrait of Aidan"
-          />
-          <p>
-            I am a dedicated Computing graduate from Bath Spa University with
-            experience in retail, hospitality, property renovation and software
-            development. I am highly motivated, adaptable and always eager to
-            learn new skills and apply them within my work. I am very active
-            and enjoy rock climbing, the gym and cycling in my spare time. I'm
-            friendly and approachable and I always strive to do the best I can
-            in all situations. I was a member of the Army Cadets at the 151 and
-            156 detachments where I had many responsibilities such as planning
-            and teaching lessons regarding a variety of subjects, from firearm
-            safety & handling, to playing musical instruments.
-          </p>
-        </div>
       </section>
 
       <section class="contact" id="contact">

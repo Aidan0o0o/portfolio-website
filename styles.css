@@ -295,6 +295,17 @@ html.colour-dark .button.primary {
   object-fit: cover;
 }
 
+.hero-portrait {
+  justify-self: end;
+  width: min(100%, 520px);
+}
+
+.hero-portrait img {
+  aspect-ratio: 4 / 5;
+  max-height: min(680px, calc(100vh - 150px));
+  object-position: center top;
+}
+
 .intro-strip {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -405,17 +416,36 @@ html.colour-dark .button.primary {
   display: flex;
   align-items: center;
   gap: 14px;
+  flex-wrap: wrap;
   margin-bottom: 18px;
 }
 
-.project-title img {
+.project-logo {
   flex: 0 0 auto;
-  width: clamp(46px, 5vw, 62px);
-  height: clamp(46px, 5vw, 62px);
+  width: clamp(118px, 11vw, 156px);
+  height: clamp(48px, 5vw, 64px);
+  padding: 8px;
   object-fit: contain;
+  object-position: center;
   border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.project-logo-badge {
+  width: clamp(102px, 10vw, 140px);
+  padding: 9px;
+  background: #fff;
+}
+
+.project-logo-wide {
+  width: clamp(132px, 13vw, 184px);
+  background: #f2f2f0;
+}
+
+.project-logo-extra-wide {
+  width: clamp(150px, 15vw, 220px);
+  background: #fff;
 }
 
 .project-content h3 {
@@ -656,6 +686,10 @@ html.colour-dark .button.primary {
   .hero-copy,
   .project-content {
     max-width: 760px;
+  }
+
+  .hero-portrait {
+    justify-self: center;
   }
 
   .project-block.reverse .project-media {

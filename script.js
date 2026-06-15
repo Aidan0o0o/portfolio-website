@@ -174,7 +174,7 @@ accessibilityReset?.addEventListener("click", () => {
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && accessibilityPanel && !accessibilityPanel.hidden) {
     setAccessibilityPanelOpen(false);
-    accessibilityToggle.focus();
+    accessibilityToggle.focus();   
   }
 });
 
