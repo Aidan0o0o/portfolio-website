@@ -106,12 +106,18 @@
 
       <section class="projects" aria-label="Project list">
         <article class="project-block reveal-on-scroll">
-          <a class="project-media" href="#" aria-label="Open Project One">
+          <button
+            class="project-media"
+            type="button"
+            data-gallery-id="fresh-track"
+            aria-label="Open FreshTrack image gallery"
+          >
             <img
-              src="assets/projects/web-app.svg"
-              alt="Mockup of a responsive web application dashboard"
+              src="assets/projects/images/fresh-track/Screenshot 2026-06-15 203116.png"
+              alt="FreshTrack kitchen dashboard screen"
+              style="object-position: center top"
             />
-          </a>
+          </button>
           <div class="project-content">
             <p class="project-number">01</p>
             <div class="project-title">
@@ -149,12 +155,18 @@
         </article>
 
         <article class="project-block reverse reveal-on-scroll">
-          <a class="project-media" href="#" aria-label="Open Project Two">
+          <button
+            class="project-media"
+            type="button"
+            data-gallery-id="pill-pall"
+            aria-label="Open PillPall image gallery"
+          >
             <img
-              src="assets/projects/mobile-app.svg"
-              alt="Mockup of a mobile app project with multiple screens"
+              src="assets/projects/images/pill-pall/scan-script-with-img.JPG"
+              alt="PillPall prescription scanning screen"
+              style="object-position: center center"
             />
-          </a>
+          </button>
           <div class="project-content">
             <p class="project-number">02</p>
             <div class="project-title">
@@ -186,12 +198,18 @@
         </article>
 
         <article class="project-block reveal-on-scroll">
-          <a class="project-media" href="#" aria-label="Open Project Three">
+          <button
+            class="project-media"
+            type="button"
+            data-gallery-id="ruh-portal"
+            aria-label="Open RUH Goal Portal image gallery"
+          >
             <img
-              src="assets/projects/data-tool.svg"
-              alt="Mockup of a data visualisation and reporting tool"
+              src="assets/projects/images/RUH-portal/home-page.png"
+              alt="RUH Team Goal Portal home dashboard"
+              style="object-position: center center"
             />
-          </a>
+          </button>
           <div class="project-content">
             <p class="project-number">03</p>
             <div class="project-title">
@@ -220,6 +238,63 @@
           </div>
         </article>
       </section>
+
+      <div
+        class="gallery-overlay"
+        data-gallery-overlay
+        aria-hidden="true"
+      >
+        <section
+          class="gallery-widget"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="gallery-title"
+        >
+          <div class="gallery-header">
+            <div>
+              <p class="eyebrow">Project Gallery</p>
+              <h2 id="gallery-title" data-gallery-title>Project images</h2>
+            </div>
+            <button
+              class="gallery-close"
+              type="button"
+              data-gallery-close
+              aria-label="Close gallery"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M6 6l12 12" />
+                <path d="M18 6L6 18" />
+              </svg>
+            </button>
+          </div>
+          <div class="gallery-stage">
+            <button
+              class="gallery-nav gallery-prev"
+              type="button"
+              data-gallery-prev
+              aria-label="Previous image"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <div class="gallery-viewport">
+              <div class="gallery-track" data-gallery-track></div>
+            </div>
+            <button
+              class="gallery-nav gallery-next"
+              type="button"
+              data-gallery-next
+              aria-label="Next image"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M9 6l6 6-6 6" />
+              </svg>
+            </button>
+          </div>
+          <p class="gallery-counter" data-gallery-counter></p>
+        </section>
+      </div>
 
       <section class="contact" id="contact">
         <p class="eyebrow">Contact</p>
