@@ -123,23 +123,33 @@ const galleryProjects = {
       },
     ],
   },
-  "pill-pall": {
-    title: "PillPall",
+  peggy: {
+    title: "Peggy",
     images: [
       {
-        src: "assets/projects/images/pill-pall/home.JPG",
-        alt: "PillPall home screen",
-        position: "center center",
-      },
-      {
-        src: "assets/projects/images/pill-pall/add-script-form.JPG",
-        alt: "PillPall add prescription form",
+        src: "assets/projects/images/peggy/image000000.JPG",
+        alt: "Peggy scanned prescription review screen",
         position: "center top",
       },
       {
-        src: "assets/projects/images/pill-pall/scan-script.JPG",
-        alt: "PillPall prescription scanning options",
-        position: "center center",
+        src: "assets/projects/images/peggy/image000001.JPG",
+        alt: "Peggy add prescription options screen",
+        position: "center top",
+      },
+      {
+        src: "assets/projects/images/peggy/image000003.JPG",
+        alt: "Peggy active prescriptions overview",
+        position: "center top",
+      },
+      {
+        src: "assets/projects/images/peggy/image000004.JPG",
+        alt: "Peggy current and past prescriptions list",
+        position: "center top",
+      },
+      {
+        src: "assets/projects/images/peggy/image000005.JPG",
+        alt: "Peggy medication details screen",
+        position: "center top",
       },
     ],
   },
@@ -184,6 +194,66 @@ const galleryProjects = {
       {
         src: "assets/projects/images/RUH-portal/view-indi-page.png",
         alt: "RUH Goal Portal individual goal page",
+        position: "center center",
+      },
+    ],
+  },
+  "bath-fc-dashboard": {
+    title: "Bath FC Dashboard",
+    images: [
+      {
+        src: "assets/projects/images/BathFC/attendence.png",
+        alt: "Bath FC attendance dashboard",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/BathFC/revenue.png",
+        alt: "Bath FC revenue dashboard",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/BathFC/revenueCharts.png",
+        alt: "Bath FC revenue charts",
+        position: "center center",
+      },
+    ],
+  },
+  fabero: {
+    title: "Fabero",
+    images: [
+      {
+        src: "assets/projects/images/Fabero/splashPage.png",
+        alt: "Fabero welcome page",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/Fabero/dashboard.png",
+        alt: "Fabero dashboard",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/Fabero/customers.png",
+        alt: "Fabero customers page",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/Fabero/catalogue.png",
+        alt: "Fabero catalogue page",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/Fabero/overview.png",
+        alt: "Fabero quote overview",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/Fabero/saveQuote.png",
+        alt: "Fabero save quote screen",
+        position: "center center",
+      },
+      {
+        src: "assets/projects/images/Fabero/finalQuote.png",
+        alt: "Fabero final quote",
         position: "center center",
       },
     ],

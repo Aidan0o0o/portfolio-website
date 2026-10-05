@@ -22,7 +22,7 @@ Use this as the editing checklist when you are ready to swap placeholder content
 ## Intro Strip
 
 - `FreshTrack`
-- `PillPall`
+- `Peggy`
 - `RUH Goal Portal`
 
 ## Projects Heading
@@ -41,7 +41,7 @@ Use this as the editing checklist when you are ready to swap placeholder content
 - Links: `Live site`, `Source code`
 - Link URLs: `#`, `#`
 
-## PillPall
+## Peggy
 
 - Image: `assets/projects/mobile-app.svg`
 - Image alt text: `Mockup of a mobile app project with multiple screens`
